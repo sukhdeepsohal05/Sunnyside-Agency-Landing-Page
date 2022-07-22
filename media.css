@@ -1,0 +1,137 @@
+@media screen and (max-width: 768px){
+    header nav{
+        padding: 2.2rem 1.4rem;
+    }
+
+    header .hamburger{
+        display: block;
+    }
+
+    .nav-items{
+        flex-direction: column;
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: scale(0) translate(-50%, 50%);
+        transition: all 0.4s ease;
+        background: hsl(0, 0%, 100%);
+        color: hsl(210, 4%, 67%);
+        padding: 3rem 0;
+        width: 87vw;
+    }
+
+    .nav-items .item{
+        margin: 1.4rem 0;
+    }
+    
+    .active{
+        display: flex;
+        transform: scale(1) translate(-50%, 50%);
+    }
+    
+    .triangle{
+        border: 15px solid hsl(0, 0%, 100%);
+        border-top-color: transparent;
+        border-left-color: transparent;
+        /* background: red; */
+        position: absolute;
+        right: 0;
+        top: -30px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    header{
+        background: url('images/mobile/image-header.jpg') center center/cover no-repeat;
+    }
+
+    
+
+    .nav-items .item4{
+        background: hsl(51, 100%, 49%);
+    }
+    
+
+    .header-content h1{
+        font-size: 2.2rem;
+        margin-bottom: 3.4rem;
+    }
+
+    .section-1, .section-2, .section-3{
+        display: block;
+    }
+
+    .section .content, .section .image{
+        width: 100%;
+    }
+
+    .section .content{
+        align-items: center;
+        text-align: center;
+        max-width: 87%;
+        margin: 3rem auto;
+    }
+    
+    .content h2{
+        font-size: 2rem;
+    }
+    
+    .section-3 .content{
+        margin: 0 auto;
+        bottom: 5px;
+    }
+
+    .graphic-design__content{
+        height: 100%;
+    }
+    
+    .graphic-design__content h2{
+        font-size: 1.6rem;
+    }
+
+    .photography__content h2{
+        font-size: 1.6rem;
+    }
+
+    .section-3 .content p{
+        margin: 2rem auto;
+        font-size: 1rem;
+    }
+
+    .section-4{
+        padding: 3rem 0;
+    }
+
+    .section-4 h1{
+        font-size: 1.2rem;
+    }
+
+    .clients{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .client{
+        margin-bottom: 1rem;
+    }
+
+    .client-content{
+        max-width: 80%;
+    }
+
+    .section-5{
+        flex-wrap: wrap;
+    }
+
+    .section-5 picture {
+        width: 50%;
+    }
+
+    .section-5 img{
+        width: 100%;
+    }
+
+    footer .links .link a{
+        margin: 0 1rem;
+    }
+}
