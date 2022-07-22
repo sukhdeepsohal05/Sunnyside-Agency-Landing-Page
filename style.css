@@ -84,11 +84,11 @@ header .hamburger{
     font-weight: 900;
     letter-spacing: 8px;
     word-spacing: 15px;
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 
 .header-content h1{
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
     font-size: 3.4rem;
 }
 
